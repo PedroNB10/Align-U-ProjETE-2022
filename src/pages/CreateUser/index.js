@@ -52,11 +52,11 @@ export default function CreateUser({ navigation }) {
       age,
       describe,
       dayWeek,
-      link_graph_x_axis: 'https://stem.ubidots.com/app/dashboards/public/widget/aP-IprXAkmQMwTTMCx9n1fzxwnS7o8DoQe87vosSnbM?embed=true',
-      link_graph_y_axis: 'https://stem.ubidots.com/app/dashboards/public/widget/qmlYZoDXnyiw9QZ3Jyx7tAB8O2mBZZuC2s5EcdiPn1k?embed=true',
-      last_x_variation: 'https://stem.ubidots.com/app/dashboards/public/widget/SMNbIetcmegglAt2CAi1adW3TriCcX8UM4zMoBHJFbA?embed=true',
-      last_y_variation: 'https://stem.ubidots.com/app/dashboards/public/widget/lkVYocYZzI6DmOkpLDToT2DWQqDbBGmzC0fx30LXo7Y?embed=true',
-      dated_values: 'https://stem.ubidots.com/app/dashboards/public/widget/rKw5sbqw3cGLwsBLZ_syC6wNqADBaVp1K_v3Hf7tit0?embed=true',
+      link_graph_x_axis: 'https://stem.ubidots.com/app/dashboards/public/widget/4YW6I4NH3j_XSkYzb2-NHV_lGOshXQvkcvbcWZtFW9w?embed=true',
+      link_graph_y_axis: 'https://stem.ubidots.com/app/dashboards/public/widget/7mQzCQpsd2-uHlyem9m5GPq1vxN2Q4WWdGk9YrehZ1E?embed=true',
+      last_x_variation: 'https://stem.ubidots.com/app/dashboards/public/widget/1pJ1uvkBEMlbCFblGud-gUIgqM3prc0D1SLeCmDwmXY?embed=true',
+      last_y_variation: 'https://stem.ubidots.com/app/dashboards/public/widget/0rTKP75H9Ig8YjD8TCCsJUSM95_TQnCA0QsCXyp6wFU?embed=true',
+      dated_values: 'https://stem.ubidots.com/app/dashboards/public/widget/XCesnY7AbRhQrOkDUYFRMqdwl3azW2ilP7sSsxdhtzU?embed=true',
     }
 
     const newDocRef = doc(collection(db, "Users"));
